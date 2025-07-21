@@ -1,0 +1,214 @@
+.container{
+      justify-items: center;
+      text-align: center;
+      /* display: none; */
+}
+h1{
+      text-align: center;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      background-color: rgb(230 240 240);
+      border-radius: 5px;
+}
+h3{
+     text-align: center;
+     font-family:Georgia, 'Times New Roman', Times, serif;
+     background-color: rgb(230 240 240);
+      color: gray;
+}
+p{
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+input{
+      background-color: rgb(241, 240, 237);
+      border-radius: 5px;
+      height: 25px;
+      margin-left: 5px;
+      border-color: blue;
+      box-shadow: #161515;
+      cursor: pointer;
+}
+.form{  
+  background-color: rgb(230 240 240);
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 5px; 
+  border-radius: 5px;
+  padding-bottom: 60px;
+}
+#age{
+  margin-left: 19px;
+}
+p{
+   background-color: rgb(230 240 240);
+}
+#reset{
+      font-size: larger;
+      background-color: red;
+      margin-right: 10px;
+      border-radius: 5px;
+      font-weight:bold;
+      cursor: pointer;
+
+}
+#Submit{
+      font-size: larger;
+      background-color: blue;
+      margin-right: 100px;
+      border-radius: 5px;
+      color: white;
+      font-weight:lighter;
+      cursor: pointer;
+    }
+.submit-reset{
+   background-color: rgb(230 240 240);
+   display: flex;
+   justify-self: center;
+   margin-top: 40px;
+   margin-left: 95px;
+}
+input:focus{
+  border: 1px solid red;
+  animation: fadeIn 0.5s, fadeOut 0.5s 2.5s;
+  cursor: auto;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+#popupMainClass{  
+  display: none;
+  position: absolute;
+  top: 240px;
+  right: 240px;
+  background-color:peachpuff;
+  width: 100%;
+  height: 100px;
+  max-width: 20px;
+  max-width: 440px;
+  justify-content: center;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: larger;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 50px 20px rgba(4, 1, 2, 0.2);
+  box-shadow: #888;
+}
+#popup-paragraph-id{
+  background-color:peachpuff;
+}
+
+#popup-ok-button-id{
+  font-size: larger;
+  background-color: blue;
+  color: #ffffff;
+    cursor: pointer;
+}
+.close{
+  position: relative;
+  bottom: 20px;
+  background-color:peachpuff;
+  color: black;
+  font-size: larger;
+  cursor: pointer;
+}
+.close:hover{
+  color: red;
+}
+a{
+  text-decoration: none;
+}
+#app{
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.popup {
+  display: none;
+  position: fixed;  
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.popup-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 500px;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+
+
+table {
+      display: none;
+  border-collapse: collapse;
+  border: 2px solid rgb(140 140 140);
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+caption {
+  caption-side: bottom;
+  padding: 10px;
+  font-weight: bold;
+}
+
+thead,
+tfoot {
+  background-color: rgb(228 240 245);
+}
+
+th,
+td {
+  border: 1px solid rgb(160 160 160);
+  padding: 8px 10px;
+}
+
+td:last-of-type {
+  text-align: center;
+}
+
+tbody > tr:nth-of-type(even) {
+  background-color: rgb(237 238 242);
+}
+
+tfoot th {
+  text-align: right;
+}
+
+tfoot td {
+  font-weight: bold;
+}
+

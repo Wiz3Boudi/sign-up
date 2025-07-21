@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Create Account</title>
+      <link rel="stylesheet" href="style.css">
+      <script src="script.js" defer></script>
+      <script src="popup.js"></script>
+</head>
+<body>
+      <div id="main-id" class="container">
+        <div class="form">
+            <h1> Welcome</h1>
+            <h3> fill out the form to create an account</h3>
+      
+            <p> Name
+            <input id="name" type="text" placeholder="Full Name" required>
+            </p>
+
+            <p>Gmail 
+            <input id="gmail" type="email" name="email" placeholder="Gmail Address" required> </p>
+
+            <p> Age 
+            <input id="age" type="number" placeholder="Age" required></p>
+            
+            <p> Phone 
+            <input id="PhoneNumber" type="number" placeholder="Phone Number" required></p>
+            
+            <div class="submit-reset">
+              <button id="reset" type="reset"> Reset </button>
+              <button id="Submit" type="submit"> Create </button>
+            </div>
+
+            <div class="sign-up">
+              <p> or 
+                <a href="\login\login.html">
+                  LOGIN
+              </a>
+              </p>
+            </div>
+        </div>
+     </div>
+
+           <!-- the pop up -->
+
+            <div id="popupMainClass">
+                <span id="close" class="close">&times;</span>
+                <p id="popup-paragraph-id"> Your account has been created successfuly
+                  press OK to go to the page or cancel to return 
+                </p>
+                <button id="popup-ok-button-id">OK</button>
+            </div>
+            <!-- deepseek popup -->
+        <div id="customPopup" class="popup">
+            <div class="popup-content">
+                <span class="close">&times;</span>
+                <p id="changed-Text">An account has created seccssfuly</p>
+            <button id="popup-ok-button-id">OK</button>
+        </div>
+      </div>
+      <a id="app" href="/App/app.html" target="_blank">App</a>
+
+
+  </tbody>
+</body>
+</html>
